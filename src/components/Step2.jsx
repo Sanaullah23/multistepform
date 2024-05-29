@@ -18,7 +18,7 @@ const Step2 = ({
 }) => {
   return (
     <>
-      <div className="flex justify-between px-4">
+      <div className="flex justify-between px-4 mb-8">
         <button
           onClick={handlePrev}
           className="flex justify-center items-center gap-2"
@@ -30,7 +30,7 @@ const Step2 = ({
         </Link>
       </div>
 
-      <div className="w-[520px] mx-auto ">
+      <div className="w-[520px] mx-auto  ">
         <div className="flex flex-col justify-center items-center mb-8">
           <span className="text-[28px]">Step # 2</span>
           <h1 className="text-[28px] px-4 py-2 font-medium">Details</h1>
